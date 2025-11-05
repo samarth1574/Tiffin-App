@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "HomeTiffin",
+    "slug": "hometiffin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FF6B35"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hometiffin.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6B35"
+      },
+      "package": "com.hometiffin.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
