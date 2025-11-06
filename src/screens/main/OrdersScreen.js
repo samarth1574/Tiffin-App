@@ -20,6 +20,10 @@ export default function OrdersScreen() {
   const navigation = useNavigation();
   const { user } = useAuth();
 
+    useEffect(() => {
+        alert('Coming Soon');
+      }, []); 
+      
   useEffect(() => {
     loadOrders();
   }, [user]);

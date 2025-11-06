@@ -20,8 +20,13 @@ export default function MenuScreen() {
   const [filter, setFilter] = useState('all'); // all, veg, non_veg
 
   useEffect(() => {
+    alert('Coming Soon');
+  }, [selectedDate]); 
+  
+  useEffect(() => {
     loadMenu();
   }, [selectedDate]);
+  
 
   const loadMenu = async () => {
     try {

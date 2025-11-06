@@ -26,6 +26,11 @@ export default function SubscriptionScreen() {
   const navigation = useNavigation();
   const { user } = useAuth();
 
+
+  useEffect(() => {
+      alert('Coming Soon');
+    }, []); 
+
   useEffect(() => {
     loadSubscriptions();
   }, [user]);
